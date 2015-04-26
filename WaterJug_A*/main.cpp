@@ -7,12 +7,18 @@
 //
 
 #include <iostream>
+#include <stdlib.h>
+#include "Domain.h"
+#include "AStar.h"
+
+using namespace std;
 
 int main(int argc, const char * argv[])
 {
 
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Domain d;
+    AStar newAStar;
+    newAStar.runAStar(d, NULL, NULL);
     return 0;
 }
 

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9E05B16719F88B2200501A19 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E05B16619F88B2200501A19 /* main.cpp */; };
 		9E05B16919F88B2200501A19 /* WaterJug_A_.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9E05B16819F88B2200501A19 /* WaterJug_A_.1 */; };
+		9E0BD7B719F9B61D00D2EAD3 /* Domain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E8DE06219F97F2F00A1CFBB /* Domain.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,9 @@
 		9E05B16319F88B2200501A19 /* WaterJug_A* */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "WaterJug_A*"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E05B16619F88B2200501A19 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9E05B16819F88B2200501A19 /* WaterJug_A_.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = WaterJug_A_.1; sourceTree = "<group>"; };
+		9E05B16F19F88B3100501A19 /* Domain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Domain.h; sourceTree = "<group>"; };
+		9E05B17019F88BEB00501A19 /* AStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AStar.h; sourceTree = "<group>"; };
+		9E8DE06219F97F2F00A1CFBB /* Domain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Domain.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				9E05B16619F88B2200501A19 /* main.cpp */,
+				9E8DE06219F97F2F00A1CFBB /* Domain.cpp */,
+				9E05B16F19F88B3100501A19 /* Domain.h */,
+				9E05B17019F88BEB00501A19 /* AStar.h */,
 				9E05B16819F88B2200501A19 /* WaterJug_A_.1 */,
 			);
 			path = "WaterJug_A*";
@@ -118,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E05B16719F88B2200501A19 /* main.cpp in Sources */,
+				9E0BD7B719F9B61D00D2EAD3 /* Domain.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +194,7 @@
 		9E05B16D19F88B2200501A19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_VERSION = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -193,6 +202,7 @@
 		9E05B16E19F88B2200501A19 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_VERSION = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -216,6 +226,7 @@
 				9E05B16E19F88B2200501A19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
